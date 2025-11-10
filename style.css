@@ -29,3 +29,12 @@ a {
     align-items: center;
     justify-content: center;
 }
+.images {
+    width: 100%;
+    display: flex;
+}
+
+.images img {
+    width: 100%;
+    border: solid 2px #fff;
+}
