@@ -7,3 +7,25 @@ body {
     padding: 0;
     background: var(--base);
 }
+
+a {
+    color: initial;
+    text-decoration: none;
+}
+
+.Flex {
+    display: flex;
+}
+
+.FY-center {
+    align-items: center;
+}
+
+.F-space-between {
+    justify-content: space-between;
+}
+
+.F-center {
+    align-items: center;
+    justify-content: center;
+}
