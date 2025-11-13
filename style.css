@@ -113,6 +113,9 @@ nav .action {
 }
 
 main {
+    width: 80%;
+    max-width: 1800px;
+    margin: 0 auto;
     margin-top: 10rem;
     text-align: center;
 }
@@ -133,7 +136,11 @@ main button {
     border: 1px solid transparent;
 }
 
-
+main h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
 
 .images {
     width: 100%;
