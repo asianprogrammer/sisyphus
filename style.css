@@ -48,7 +48,7 @@ nav {
     max-width: 1800px;
     transform: translateX(-50%);
     background: var(--gradient);
-    padding: .4rem .5rem;
+    padding: .5rem .5rem;
     border-radius: 40px;
     box-shadow: inset 0 0 0 1px white;
 }
@@ -69,7 +69,7 @@ nav .action {
 
 .cart {
     border: none;
-    height: 56px;
+    height: 50px;
     padding: 0 1rem;
     margin-right: .2rem;
     border-radius: 416px;
@@ -94,8 +94,8 @@ nav .action {
 }
 
 .menu {
-    width: 56px;
-    height: 56px;
+    width: 50px;
+    height: 50px;
     border: none;
     border-radius: 50%;
     background: var(--gradient);
@@ -104,7 +104,7 @@ nav .action {
 }
 
 .logo {
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .action {
@@ -116,7 +116,7 @@ main {
     width: 80%;
     max-width: 1800px;
     margin: 0 auto;
-    margin-top: 10rem;
+    margin-top: 15rem;
     text-align: center;
 }
 
@@ -139,6 +139,7 @@ main button {
 main h1 {
     font-size: 4rem;
     font-weight: 300;
+    color: var(--black);
     text-transform: uppercase;
 }
 
