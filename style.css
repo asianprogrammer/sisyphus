@@ -114,7 +114,26 @@ nav .action {
 
 main {
     margin-top: 10rem;
+    text-align: center;
 }
+
+main button {
+    z-index: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .8rem;
+    position: relative;
+    text-transform: uppercase;
+    background: var(--base);
+    padding: .9rem 2.4rem;
+    background: linear-gradient(var(--base), var(--base)) padding-box,
+                linear-gradient(180deg, #E2E2E2 0%, #CDCDCD 100%) border-box;
+    border-radius: 50em;
+    border: 1px solid transparent;
+}
+
+
 
 .images {
     width: 100%;
